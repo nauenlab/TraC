@@ -95,7 +95,7 @@ function searchForGene()
 	   }
 	   else if(xhr.readyState === 4)
 	   {
-	       alert('Supplied Specie and Gene was not found');
+	       alert('Supplied Species and Gene was not found');
            transcriptsGlobal = [];
 	   }
 	});
